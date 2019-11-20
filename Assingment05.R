@@ -1,4 +1,4 @@
-ptm <- proc.time()
+  ptm <- proc.time()
 DF <- read.csv("DFII10.csv")
 CSV_READ_TIME <- (proc.time() - ptm)
 CSV_READ_TIME
